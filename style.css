@@ -1,1 +1,41 @@
-h3 { color: pink;}
+body {
+    font-family: Comic Sans MS;
+    background-image: url('https://t4.ftcdn.net/jpg/02/75/92/41/360_F_275924184_GP4ACV80EK8NokxlFaUB2qykpXKrroqx.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgb(255, 237, 159);
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 250px; 
+}
+
+form h3 {
+    color: #ff5e00;
+    font-size: 40px;;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+input {
+    background-color: #bce4ff;
+    padding: 10px;
+    border: 2px solid #ffffff; 
+    border-radius: 8px; 
+    width: 100%;  
+    font-family: Comic Sans MS; 
+}
+
+input[type="submit"] {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); }

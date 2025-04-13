@@ -1,0 +1,43 @@
+
+/* Navbar */
+.navbar {
+    background-color: #ff5e00; 
+    padding: 1px 2px; 
+    top: 0;
+    z-index: 800; 
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 30px; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Comic Sans MS; 
+}
+
+
+h1, h2 { 
+    color: rgb(255, 145, 0);
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+.pa { color: white;}
+
+.imagem1, .imagem2, .imagem3 { width: 300px;
+height: 300px; }
+
+.imagem4, .imagem5, .imagem6 { width: 300px;
+    height: 300px; }
+
+    .papas1, .papas2 { width: 300px;
+        height: 300px; }

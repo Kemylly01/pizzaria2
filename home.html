@@ -3,31 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <title>Papa Louie Pizzaria</title>
 </head>
 <body>
-    <h2>SEJA BEM VINDO!</h2>
+    <h1> WELCOME TO PAPA LOUIE PIZZARIA'S! </h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#most ordered">Most Ordered</a></li>
+            <li><a href="#sweet">Sweet</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+<section id="most ordered">
+    <div class="qualquer"> 
+        <h2>
+            Most ordered pizza's
+        </h2>
+    <img src="Pizza queijo.jpeg" alt="" class="imagem1">
+    <img src="pizza frango.jpeg" alt="" class="imagem2">
+    <img src="pizza pepperoni.jpeg" alt="" class="imagem3">
+    </div>
+</section>
 
-<div class="qualquer"> 
-    <h3>
-        Sabore de pizzas mais pedidos
-    </h3>
-
-    <ul>
-
-        <li> Calabresa </li>
-        <li> Muçarela</li>
-        <li> Portuguesa,</li>
-        <li> Marguerita</li>
-        <li> Frango com catupiry</li>
-
-    </ul>
-</div>
+<section id="sweet">
+    <div class="aleatorio">
+        <h2> Sweet pizza's </h2>
+        <img src="pizza doce.jpeg" alt="" class="imagem4">
+        <img src="pizza mm.jpeg" alt="" class="imagem5">
+        <img src="pizza morango.jpeg" alt="" class="imagem6">
+    </div>
+</section>
+<section id="about">
+    <div class="papas">
+        <div class="text">
+            <h1 class="pa">About Us</h1>
+            <p>Welcome to Papa Louie Pizzaria's! We serve the best pizzas in town with fresh ingredients and a lot of love.</p>
+        </div>
+        <div class="image">
+            <img src="download (1).jpeg" alt="About us" class="papas1"/>
+            <img src="download.jpeg" alt="" class="papas2"/>
+        </div>
+    </div>
+</section>
 <style>
 
 .qualquer{ width: 100%;
+    height: 392px;
 
-    background: palevioletred;
+    background: #bce4ff;
+}
+.qualquer img {
+    margin-right: 50px; 
+    margin-left: 70px;
+    margin-bottom: 10px; 
+    display: inline-block; 
+    transition: transform 0.3s;
+    border: 2px solid #ff5e00;
+}
+.qualquer img:hover {
+    transform: scale(1.1); 
+}
+.aleatorio { width: 100%;
+    height: 392px;
+
+    background: #bce4ff;
+}
+.aleatorio img {
+    margin-right: 50px; 
+    margin-left: 70px;
+    margin-bottom: 10px; 
+    display: inline-block; 
+    transition: transform 0.3s;
+    border: 2px solid #ff5e00;
+}
+.aleatorio img:hover {
+    transform: scale(1.1); 
+}
+.papas { width: 100%;
+    height: 392px;
+
+    background: #ff5e00;
+}
+.papas img {
+    margin-right: 50px; 
+    margin-left: 70px;
+    margin-bottom: 10px; 
+    display: inline-block; 
+    transition: transform 0.3s;
+    border: 2px solid #bce4ff;
 }
 
 </style>
